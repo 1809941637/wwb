@@ -1,0 +1,37 @@
+{
+	"projectid": "n2sy0ns2jr7trc0x",
+	"device_id": "orin",
+	"device_name": "orin",
+	"password": "1234567890abcdef",
+	"certificate": "./config/device.pem",
+	"audio_enable": 0,
+	"audio_receive": 1,
+	"device_streams": 1, 
+	"force_login":1,
+	"streams_config": [ 
+		{
+			"protocol": "outside",
+			"camera": 0, 
+			"width": 1920, 
+			"height": 1080, 
+			"fps": 30,  
+			"bps": 2000,  
+			"min_fps": 30,  
+			"min_bps": 1000, 
+			"min_width": 1280, 
+			"always_push": 0,
+			"encoder_type":0,
+			"codec": 0
+		}
+		
+	],
+	"cloud_mode": "public",
+	"sdk_mode": "server2",
+	"log_enable": 2
+}
+
+
+
+
+
+  
