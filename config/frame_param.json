@@ -1,0 +1,54 @@
+{
+	"local_ip": "192.168.0.101",
+	"local_port": 9000,
+	"protocol_type": 1,
+
+	"chan_num": 8,
+	"VIN/F_H264": {
+		"chan":0,
+		"width": 3840,
+		"height":2160
+	},
+	"VIN/FN_H264": {
+		"chan":1,
+		"width": 3840,
+		"height":2160
+	},
+	"VIN/B_H264": {
+		"chan":2,
+		"width": 1920,
+		"height":1536
+	},
+	
+	"VIN/LF_H264": {
+		"chan":3,
+		"width": 1920,
+		"height":1536
+	},
+	
+	"VIN/RF_H264": {
+		"chan":4,
+		"width": 1920,
+		"height":1536
+	},
+	
+	"VIN/LB_H264": {
+		"chan":5,
+		"width": 1920,
+		"height":1536
+	},
+	
+	"VIN/RB_H264": {
+		"chan":6,
+		"width": 1920,
+		"height":1536
+	},
+
+	"preview": {
+		"chan":7,
+		"width": 1920,
+		"height":1080
+	}
+
+}
+

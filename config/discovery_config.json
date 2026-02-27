@@ -1,0 +1,8 @@
+{
+    "is_dynamic": true,
+    "dynamic_config": {
+        "multicast_ip": "239.0.255.0",
+        "multicast_port": 55500,
+        "multicast_network" : "mgbe3_0"
+    }
+}
